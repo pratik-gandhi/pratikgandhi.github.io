@@ -1,0 +1,18 @@
+GET http://localhost:3000/resume
+
+###
+
+GET http://localhost:3000/resume/77208baf-bec7-4b89-9ac2-64477e96adc0
+
+###
+
+POST http://localhost:3000/resume/
+Content-Type: application/json
+
+{
+    "type": "java",
+    "status": "something",
+    "summary": "My resume",
+    "imageUrl": "whatever",
+    "targetCompany": ["Apple"]
+}
